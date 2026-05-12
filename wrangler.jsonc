@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "sub-store-workers",
+  "compatibility_date": "2026-05-12",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "pages-dist"
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
+}
